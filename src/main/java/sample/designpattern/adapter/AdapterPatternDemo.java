@@ -7,7 +7,7 @@ package sample.designpattern.adapter;
  * Time: 9:36 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Demo {
+public class AdapterPatternDemo {
 
     public static void main(String[] args) {
 
