@@ -13,6 +13,7 @@ public class ImageProxy implements Image {
     @Override
     public void display() {
         if (imageDelegate == null) {
+            System.out.println("proxy is (lazy) loading image");
             imageDelegate = new ImageImpl();
         }
         System.out.println("calling ImageProxy::display method");
