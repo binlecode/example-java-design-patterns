@@ -1,8 +1,5 @@
 package sample.designpattern.command;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Command pattern is a data driven design pattern.
  * A request is wrapped under a object as command ({@link sample.designpattern.command.Order}

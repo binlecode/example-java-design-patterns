@@ -19,5 +19,35 @@ Scientific reference can be found on [wikibook](https://en.wikibooks.org/wiki/Co
 
 [bridge](./bridge.md)
 
-[decorater](./decorator.md)
+[decorator](./decorator.md)
+
+[facade](./facade.md)
+
+[flyweight](./flyweight.md)
+
+[proxy](./prototype.md)
+
+### behavioral
+
+[chain](./chain.md)
+
+[command](./command.md)
+
+[iterator](./iterator.md)
+
+[mediator](./mediator.md)
+
+[observer](./observer.md)
+
+[state](./state.md)
+
+[strategy](./strategy.md)
+
+[visitor](./visitor.md)
+
+
+
+
+
+
 
