@@ -6,6 +6,13 @@ This pattern involves implementing an expression interface which tells to interp
 
 ![pattern uml diagram](./images/uml_interpreter_pattern.png)
 
+Checklist to apply interpreter pattern:
+- Define a grammar for the language.
+- Map each production in the grammar to a class.
+- Organize the suite of classes into the structure of the Composite pattern.
+- Define an `interpret(Context)` method in the Composite hierarchy.
+- Use the Context object to encapsulate the current state of the input and output as the former is parsed and the latter is accumulated. It is manipulated by each grammar class as the "interpreting" process transforms the input into the output.
+
 We are going to create an interface `Expression` and concrete classes implementing the Expression interface. A class `TerminalExpression` is defined which acts as a main interpreter of context in question. Other classes OrExpression, AndExpression are used to create combinatorial expressions aka `NonTerminalExpression`.
 
 ![pattern diagram](./images/interpreter_pattern_uml_diagram.jpg)
