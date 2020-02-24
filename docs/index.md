@@ -33,6 +33,8 @@ Scientific reference can be found on [wikibook](https://en.wikibooks.org/wiki/Co
 
 [command](./command.md)
 
+[interpreter](./interpreter.md)
+
 [iterator](./iterator.md)
 
 [mediator](./mediator.md)
