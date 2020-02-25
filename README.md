@@ -1,5 +1,7 @@
 # java-design-patterns
 
+Pattern: a (general) **solution** to a (recuring) **problem** in a (given) **context** (mixture of assumptions and constraints).
+
 GOF design pattern samples in Java.
 
 This repository contains Java snippets of patterns that are widely used in enterprise software development.
