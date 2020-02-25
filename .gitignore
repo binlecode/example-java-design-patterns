@@ -3,6 +3,10 @@
 .idea/
 *.iml
 target/
+.vscode/
+.classpath
+.project
+.settings/
 
 
 # Compiled class file

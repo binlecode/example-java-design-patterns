@@ -5,6 +5,8 @@ Scientific reference can be found on [wikibook](https://en.wikibooks.org/wiki/Co
 
 ### creative
 
+Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+
 [factory](./factory.md)
 
 [abstract factory](./abstract_factory.md)
