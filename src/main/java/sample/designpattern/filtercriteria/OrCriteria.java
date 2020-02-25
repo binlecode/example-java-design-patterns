@@ -1,6 +1,5 @@
 package sample.designpattern.filtercriteria;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
