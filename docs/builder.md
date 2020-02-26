@@ -2,13 +2,9 @@
 
 Builder pattern aims to “Separate the construction of a complex object from its representation so that the same construction process can create different representations.” It is used to construct a complex object step by step and the final step will return the object. The process of constructing an object should be generic so that it can be used to create different representations of the same object.
 
+A Builder class builds the object step by step and finally return the object. This builder is independent of objects being built.
+
 ![UML diagram](./images/uml-of-builedr.jpg)
-
-Builder pattern builds a complex object using simple objects and using a step by step approach. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
-
-A Builder class builds the final object step by step. This builder is independent of other objects.
-
-
 
 We have considered a business case of fast-food restaurant where a typical meal could be a burger and a cold drink. Burger could be either a Veg Burger or Chicken Burger and will be packed by a wrapper. Cold drink could be either a coke or pepsi and will be packed in a bottle.
 
@@ -18,10 +14,11 @@ We then create a Meal class having ArrayList of Item and a MealBuilder to build 
 
 ![pattern diagram](./images/builder_pattern_uml_diagram.jpg)
 
+Demo class:
 
-[main class: ../src/main/java/sample.designpattern/builder/MeanBuilder.java](../src/main/java/sample/designpattern/builder/MealBuilder.java)
+[../src/main/java/sample.designpattern/builder/MeanBuilder.java](../src/main/java/sample/designpattern/builder/MealBuilder.java)
 
-run main class:
+Maven command to run the demo class:
 
 ```bash
 ./mvnw exec:java -Dexec.mainClass="sample.designpattern.builder.MealBuilder"
