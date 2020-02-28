@@ -2,6 +2,10 @@
 
 Github page url: [https://binlecode.github.io/example-java-design-patterns/](https://binlecode.github.io/example-java-design-patterns/)
 
+Github CI status:
+
+![Java CI](https://github.com/binlecode/example-java-design-patterns/workflows/Java%20CI/badge.svg)
+
 Pattern: a (general) **solution** to a (recuring) **problem** in a (given) **context** (mixture of assumptions and constraints).
 
 GOF design pattern samples in Java.
