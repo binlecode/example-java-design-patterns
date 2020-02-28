@@ -1,5 +1,7 @@
 # java-design-patterns
 
+Github page url: [https://binlecode.github.io/example-java-design-patterns/](https://binlecode.github.io/example-java-design-patterns/)
+
 Pattern: a (general) **solution** to a (recuring) **problem** in a (given) **context** (mixture of assumptions and constraints).
 
 GOF design pattern samples in Java.
